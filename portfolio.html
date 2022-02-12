@@ -14,27 +14,27 @@
 <body>
     <!-- header section -->
     <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
             <!-- navigation -->
-            <nav class="header-navigation">
+            <nav class="navigation">
                 <!-- logo -->
-                <a class="header-logo link" href="">Web<span class="header-logo-part">Studio</span></a>
-                <ul class="header-list list">
-                    <li class="header-item"><a class="header-item-link link" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="header-item-link link current-page" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="header-item-link link" href="">Контакты</a></li>
+                <a class="header__logo link" href="">Web<span class="header__logo-part">Studio</span></a>
+                <ul class="navigation__list list">
+                    <li class="navigation__item"><a class="navigation__link link" href="./index.html">Студия</a></li>
+                    <li class="navigation__item"><a class="navigation__link link current-page" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation__item"><a class="navigation__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
             <!-- contacts -->
-            <ul class="header-contacts-list list">
-                <li class="header-contacts-item"><a class="header-contacts-link link" href="mailto:info@devstudio.com">
-                    <svg class="header-contacts-icon" width="16" height="12">
+            <ul class="header__contacts-list list">
+                <li class="header__contacts-item"><a class="header__contacts-link link" href="mailto:info@devstudio.com">
+                    <svg class="header__contacts-icon" width="16" height="12">
                         <use href="images/icons.svg#icon-envelope">  
                         </use>
                     </svg>
                     info@devstudio.com</a></li>
-                <li class="header-contacts-item"><a class="header-contacts-link link" href="tel:+380961111111">
-                    <svg class="header-contacts-icon-smartphone" width="10" height="16">
+                <li class="header__contacts-item"><a class="header__contacts-link link" href="tel:+380961111111">
+                    <svg class="header__contacts-icon-smartphone" width="10" height="16">
                         <use href="images/icons.svg#icon-smartphone">  
                         </use>
                     </svg>
@@ -43,144 +43,144 @@
         </div> 
     </header>
     <!-- main section -->
-    <main class="main-portfolio">
-        <section class="main-section-portfolio section">
+    <main class="main">
+        <section class="portfolio section">
             <div class="container">
-                <h1 class="main-section-portfolio-title">Projects</h1>
+                <h1 class="portfolio__title">Projects</h1>
                 
                     <!-- filter -->
-                    <ul class="main-portfolio-filter-list list">
-                        <li class="main-portfolio-filter-item"><button class="main-portfolio-filter-item-button" type="button">Все</button></li>
-                        <li class="main-portfolio-filter-item"><button class="main-portfolio-filter-item-button" type="button">Веб-сайты</button></li>
-                        <li class="main-portfolio-filter-item"><button class="main-portfolio-filter-item-button" type="button">Приложения</button></li>
-                        <li class="main-portfolio-filter-item"><button class="main-portfolio-filter-item-button" type="button">Дизайн</button></li>
-                        <li class="main-portfolio-filter-item"><button class="main-portfolio-filter-item-button" type="button">Маркетинг</button></li>
+                    <ul class="portfolio__filter-list list">
+                        <li class="portfolio__filter-item"><button class="portfolio__filter-button" type="button">Все</button></li>
+                        <li class="portfolio__filter-item"><button class="portfolio__filter-button" type="button">Веб-сайты</button></li>
+                        <li class="portfolio__filter-item"><button class="portfolio__filter-button" type="button">Приложения</button></li>
+                        <li class="portfolio__filter-item"><button class="portfolio__filter-button" type="button">Дизайн</button></li>
+                        <li class="portfolio__filter-item"><button class="portfolio__filter-button" type="button">Маркетинг</button></li>
                     </ul>
                     <!-- projects section -->
-                    <ul class="potfolio-projects-list list">
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                    <ul class="projects__list list">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project1.jpg" alt="project-img-1" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Технокряк</h2>
-                                    <p class="potfolio-projects-item-text">Веб-сайт</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Технокряк</h2>
+                                    <p class="projects__card-text">Веб-сайт</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project2.jpg" alt="project-img-2" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quos.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quos.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text">
-                                    <h2 class="potfolio-projects-item-title">Постер New Orlean vs Golden Star</h2>
-                                    <p class="potfolio-projects-item-text">Дизайн</p>  
+                                <div class="projects__text">
+                                    <h2 class="projects__card-title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="projects__card-text">Дизайн</p>  
                                 </div> 
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project3.jpg" alt="project-img-3" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos reprehenderit in itaque voluptate omnis!</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos reprehenderit in itaque voluptate omnis!</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Ресторан Seafood</h2>
-                                    <p class="potfolio-projects-item-text">Приложение</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Ресторан Seafood</h2>
+                                    <p class="projects__card-text">Приложение</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project4.jpg" alt="project-img-4" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Проект Prime</h2>
-                                    <p class="potfolio-projects-item-text">Маркетинг</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Проект Prime</h2>
+                                    <p class="projects__card-text">Маркетинг</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project5.jpg" alt="project-img-5" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text">
-                                    <h2 class="potfolio-projects-item-title">Проект Boxes</h2>
-                                    <p class="potfolio-projects-item-text">Приложение</p>
+                                <div class="projects__text">
+                                    <h2 class="projects__card-title">Проект Boxes</h2>
+                                    <p class="projects__card-text">Приложение</p>
                                 </div> 
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project6.jpg" alt="project-img-6" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Inspiration has no Borders</h2>
-                                    <p class="potfolio-projects-item-text">Веб-сайт</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Inspiration has no Borders</h2>
+                                    <p class="projects__card-text">Веб-сайт</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project7.jpg" alt="project-img-7" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Издание Limited Edition</h2>
-                                    <p class="potfolio-projects-item-text">Дизайн</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Издание Limited Edition</h2>
+                                    <p class="projects__card-text">Дизайн</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project8.jpg" alt="project-img-8" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Проект LAB</h2>
-                                    <p class="potfolio-projects-item-text">Маркетинг</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Проект LAB</h2>
+                                    <p class="projects__card-text">Маркетинг</p>
                                 </div>
                             </a> 
                         </li>
-                        <li class="potfolio-projects-item"> 
-                            <a class="link portfolio-link-img" href="">
-                                <div class="portfolio-overlay">
+                        <li class="projects__card"> 
+                            <a class="link projects__link-img" href="">
+                                <div class="projects__overlay">
                                     <img class="img" src="./images/project9.jpg" alt="project-img-9" width="370" height="294">
-                                    <div class="overlay-block"> 
-                                        <p class="overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
+                                    <div class="projects__overlay-block"> 
+                                        <p class="projects__overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt.</p>    
                                     </div>
                                 </div>
-                                <div class="projects-main-text"> 
-                                    <h2 class="potfolio-projects-item-title">Growing Business</h2>
-                                    <p class="potfolio-projects-item-text">Приложение</p>
+                                <div class="projects__text"> 
+                                    <h2 class="projects__card-title">Growing Business</h2>
+                                    <p class="projects__card-text">Приложение</p>
                                 </div>  
                             </a> 
                         </li>
@@ -190,49 +190,49 @@
     </main>
     <!-- footer section -->
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer__container">
             <!-- logo 2 -->
-            <div class="footer-links">
-            <a class="footer-logo link" href="">Web<span class="footer-logo-part">Studio</span></a>
-            <!-- address -->
-            <address class="footer-address">
-            <ul class="footer-adress-list list">
-                <li class="footer-address-item"><a class="footer-addres-link-add link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="footer-address-item"><a class="footer-addres-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-address-item"><a class="footer-addres-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-            </address>
+            <div class="footer__links">
+                <a class="footer__logo link" href="">Web<span class="footer__logo-part">Studio</span></a>
+                <!-- address -->
+                <address class="footer__address">
+                <ul class="footer__address-list list">
+                    <li class="footer__address-item"><a class="footer__address-link-add link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="footer__address-item"><a class="footer__address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer__address-item"><a class="footer__address-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+                </address>
             </div>  
-            <div class="footer-social">
-                <h4 class="footer-social-text">Присоединяйтесь</h4>
-                <ul class="footer-social-list list">
-                    <li class="footer-social-item"> 
-                        <a href="" class="footer-social-link" > 
-                            <svg class="footer-social-icon" width="20" height="20" >
+            <div class="footer__social">
+                <h4 class="footer__social-text">Присоединяйтесь</h4>
+                <ul class="footer__social-list list">
+                    <li class="footer__social-item"> 
+                        <a href="" class="footer__social-link" > 
+                            <svg class="footer__social-icon" width="20" height="20" >
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item"> 
-                        <a href="" class="footer-social-link" > 
-                            <svg class="footer-social-icon" width="20" height="20" >
+                    <li class="footer__social-item"> 
+                        <a href="" class="footer__social-link" > 
+                            <svg class="footer__social-icon" width="20" height="20" >
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item"> 
-                        <a href="" class="footer-social-link" > 
-                            <svg class="footer-social-icon" width="20" height="20" >
+                    <li class="footer__social-item"> 
+                        <a href="" class="footer__social-link" > 
+                            <svg class="footer__social-icon" width="20" height="20" >
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item"> 
-                        <a href="" class="footer-social-link" > 
-                            <svg class="footer-social-icon" width="20" height="20" >
+                    <li class="footer__social-item"> 
+                        <a href="" class="footer__social-link" > 
+                            <svg class="footer__social-icon" width="20" height="20" >
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
                             </svg>
@@ -240,12 +240,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-form">
-                <p class="footer-form-title">Подпишитесь на рассылку</p>
-                <div class="footer-form-block">
+            <div class="footer__form">
+                <p class="footer__form-title">Подпишитесь на рассылку</p>
+                <div class="footer__form-block">
                     <input type="email" name="email" id="mail" placeholder="E-mail" class="footer-input">
-                    <button type="button" class="footer-form-button">Подписаться
-                        <svg class="footer-icon-telegramm" width="24" height="24"> 
+                    <button type="button" class="footer__form-button">Подписаться
+                        <svg class="footer__icon-telegramm" width="24" height="24"> 
                             <use href="./images/icons.svg#icon-telegramm"></use>
                         </svg>
                     </button>
