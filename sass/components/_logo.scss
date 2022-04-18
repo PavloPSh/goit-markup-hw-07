@@ -8,11 +8,13 @@
     letter-spacing: 0.03em;
     color: $accent-color;
     display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .logo__part-white {
-    color: #fff;
+    color: $main-title-color;
 }
 .logo__part-black {
-    color: #000000;
+    color: $main-color;
 }
 
