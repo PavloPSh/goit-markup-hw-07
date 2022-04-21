@@ -34,7 +34,7 @@
     color: $main-color;
     display: flex;
     justify-content: center;
-    margin: 30px 0 10px 0;
+    margin-bottom: 10px;
 }
 .main-team__item-text {
     font-size: 16px;
@@ -48,7 +48,7 @@
     @extend %list;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .main-team__social-item {
     width: 44px;
@@ -76,6 +76,9 @@
 }
 .main-team__social-icon {
     fill: currentColor;
+}
+.main-team__image {
+    margin-bottom: 30px;
 }
 
 

@@ -14,8 +14,8 @@
 }
 .header__contacts-item{
     display: flex;
-    &:not(:last-child) {
-        margin-right: 50px;
+    &:not(:first-child) {
+        margin-left: 50px;
     }
 }
 .header__contacts-icon{

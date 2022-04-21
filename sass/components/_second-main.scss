@@ -9,9 +9,11 @@
     @extend %list;
     display: flex;
 }    
+.second-main__title {
+    display: none;
+}
 .second-main__item-title {
     margin-bottom: 10px;
-    width: 270px;
     line-height: 1.14;
     text-transform: uppercase;
     color: $main-color;
@@ -32,12 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.second-main__icons-item + .second-main__icons-item {
-    margin-left: 30px;
-}
-.second-main__title {
-    display: none;
+    margin-bottom: 30px;
 }
 .second-main__item-text {
     line-height: 1.71;
