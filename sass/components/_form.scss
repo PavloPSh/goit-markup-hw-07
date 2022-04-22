@@ -24,10 +24,11 @@ textarea {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__input:focus {
-    outline: 1px solid $accent-color;
+    border: 1px solid $accent-color;
 }
 .form__item textarea {
     padding: 11px 16px;
@@ -36,7 +37,8 @@ textarea {
     border-radius: 4px;
     font-size: 12px;
     cursor: pointer;
-    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
 }
 .form__comment-block {
     margin-bottom: 20px;

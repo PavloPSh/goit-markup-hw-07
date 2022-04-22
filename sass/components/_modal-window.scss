@@ -40,14 +40,16 @@
     position: absolute;
     top: 8px;
     right: 8px;
+    &:hover,
+    &:focus-within {
+        color: $accent-color;
+        outline: none;
+    }
+
 }
 
 .modal__icon{
     width: 18px;
     height: 18px;
     fill: currentColor;
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
 }

@@ -27,7 +27,7 @@ img {
   margin: 0 auto;
 }
 
-.second-main, .section, .main-team {
+.second-main, .third-main, .main-team, .clients, .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -241,10 +241,6 @@ img {
   border-radius: 4px;
 }
 
-.second-main {
-  padding-bottom: 0px;
-}
-
 .second-main__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,6 +291,10 @@ img {
   color: #757575;
 }
 
+.third-main {
+  padding-top: 0px;
+}
+
 .third-main__title {
   font-size: 36px;
   line-height: 1.16;
@@ -336,6 +336,7 @@ img {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .main-team__item:not(:last-child) {
@@ -376,7 +377,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
 }
 
 .main-team__social-item {
@@ -528,6 +528,7 @@ img {
 
 .footer__social-text {
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -866,14 +867,15 @@ img {
   right: 8px;
 }
 
+.modal__button:hover, .modal__button:focus-within {
+  color: #2196F3;
+  outline: none;
+}
+
 .modal__icon {
   width: 18px;
   height: 18px;
   fill: currentColor;
-}
-
-.modal__icon:hover, .modal__icon:focus {
-  color: #2196F3;
 }
 
 textarea {
@@ -912,12 +914,13 @@ textarea {
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  -webkit-transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form__input:focus {
-  outline: 1px solid #2196F3;
+  border: 1px solid #2196F3;
 }
 
 .form__item textarea {
@@ -928,8 +931,9 @@ textarea {
   border-radius: 4px;
   font-size: 12px;
   cursor: pointer;
-  -webkit-transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .form__comment-block {
